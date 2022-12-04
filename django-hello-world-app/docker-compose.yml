@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  django:
+    image: django-app:1.0.0
+    build: .
+    ports:
+      - "8000:8000"
